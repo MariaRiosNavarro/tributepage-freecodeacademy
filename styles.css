@@ -1,0 +1,101 @@
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+:root {
+    --color-primary: #ffb300;
+    --color-primary-light: #ffe54c;
+    --color-secondary: #e1edb8;
+    --color-secondary-light: #ffffea;
+}
+
+body {
+    background-color: var(--color-secondary-light);
+    
+}
+
+.header {
+    background-color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    margin: 20px 0;
+}
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+
+q {
+    font-style: italic;
+    margin: 20px auto;
+    width: 30%;
+    min-width: 25%;
+}
+
+
+#image {
+    display: block;
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+figcaption {
+    margin: 20px 0;
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#tribute-info, #tribute-theories{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    max-width: 45%;
+    margin: 20px 0;
+
+}
+  
+
+ul {
+    list-style: none;
+    margin: 20px 0;
+}
+
+#career {
+    margin-top: 20px;
+    
+}
+
+#more-information {
+    text-align: center;
+    max-width: 45%;
+    margin: 20px auto;
+}
